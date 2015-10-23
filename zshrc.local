@@ -53,6 +53,7 @@ plugins=(git sublime ruby chruby brew bundler gem)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:$PATH"
 unsetopt nomatch
 # export MANPATH="/usr/local/man:$MANPATH"
 
