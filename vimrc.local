@@ -65,6 +65,7 @@ filetype plugin indent on
 
 set background=dark
 colorscheme solarized
+highlight ColorColumn ctermbg=DarkCyan
 
 " vim-rspec
 " ==========
