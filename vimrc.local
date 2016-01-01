@@ -1,15 +1,3 @@
-" A minimal vimrc for new vim users to start with.
-"
-" Referenced here: http://www.benorenstein.com/blog/your-first-vimrc-should-be-nearly-empty/
-
-" Original Author:   Bram Moolenaar <Bram@vim.org>
-" Made more minimal by:  Ben Orenstein
-" Last change:           2012 Jan 20
-"
-" To use it, copy it to
-"     for Unix and OS/2:  ~/.vimrc
-"  for MS-DOS and Win32:  $VIM\_vimrc
-"
 "  If you don't understand a setting in here, just type ':h setting'.
 
 " Use Vim settings, rather than Vi settings (much better!).
@@ -28,41 +16,11 @@ filetype plugin indent on
 set tabstop=2
 set shiftwidth=2
 
-colorscheme murphy
-
-" execute pathogen#infect()
-
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-"set rtp+=~/.vim/bundle/Vundle.vim
-"call vundle#begin()
-" let Vundle manage Vundle, required
-"Plugin 'gmarik/Vundle.vim'
-"Plugin 'bling/vim-airline'
-"Bundle 'scrooloose/syntastic'
-"Bundle 'scrooloose/nerdtree'
-"Bundle 'rking/ag.vim'
-"Plugin 'kien/ctrlp.vim'
-"Plugin 'vim-ruby/vim-ruby'
-"Plugin 'tpope/vim-rails'
-"Plugin 'croaky/vim-colors-github'
-"Plugin 'tpope/vim-endwise'
-"Plugin 'slim-template/vim-slim'
-"Plugin 'vim-scripts/matchit.zip'
-"Plugin 'kchmck/vim-coffee-script'
-"Plugin 'tpope/vim-eunuch'
-"Plugin 'tpope/vim-surround'
-"Plugin 'tpope/vim-fugitive'
-"Plugin 'christoomey/vim-run-interactive'
-"Plugin 'tpope/vim-bundler'
-"Plugin 'thoughtbot/vim-rspec'
-"Plugin 'pbrisbin/vim-mkdir'
-"Plugin 'airblade/vim-gitgutter'
-"Plugin 'altercation/vim-colors-solarized'
-"call vundle#end()
 filetype plugin indent on
 
+" Colorscheme
 set background=dark
 colorscheme solarized
 highlight ColorColumn ctermbg=DarkCyan
@@ -82,4 +40,3 @@ map <Leader>a :call RunAllSpecs()<CR>
 
 " Key mappings
 :inoremap ii <Esc>
-
