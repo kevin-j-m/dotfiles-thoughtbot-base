@@ -1,3 +1,11 @@
+[alias]
+  b = branch
+  browse = !hub browse
+  can = commit --amend --no-edit
+  ci-status = !hub ci-status
+  compare = !hub compare
+  lo = log --oneline --decorate --all -20
+  ri = rebase -i
 [user]
   name = Kevin Murphy
   email = murphy.kevin.mail@gmail.com
