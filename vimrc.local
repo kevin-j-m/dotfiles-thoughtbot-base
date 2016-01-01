@@ -1,4 +1,4 @@
-"  If you don't understand a setting in here, just type ':h setting'.
+" If you don't understand a setting in here, just type ':h setting'.
 
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
@@ -19,6 +19,12 @@ set shiftwidth=2
 filetype off                  " required
 
 filetype plugin indent on
+
+" Line numbers
+set relativenumber
+if v:version > 703
+  set number " hybrid relative and absolute for current line
+endif
 
 " Colorscheme
 set background=dark
