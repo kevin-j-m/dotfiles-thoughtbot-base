@@ -58,6 +58,9 @@ PATH=$PATH:"$HOME/Library/Android/sdk/platform-tools"
 unsetopt nomatch
 
 chruby ruby-2.3.0
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
