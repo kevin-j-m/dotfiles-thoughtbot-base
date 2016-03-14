@@ -56,6 +56,8 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:$PATH"
 PATH=$PATH:"$HOME/Library/Android/sdk/platform-tools"
 unsetopt nomatch
+
+chruby ruby-2.3.0
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
