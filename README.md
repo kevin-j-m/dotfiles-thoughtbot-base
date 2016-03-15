@@ -23,11 +23,21 @@ Install [rcm](https://github.com/mike-burns/rcm).
 Install
 -------
 
-Clone onto my laptop:
+Install thoughbot's dotfiles for a base:
 
-    git clone git://github.com/kevin-j-m/dotfiles.git
+    mkdir thoughtbot
+    cd thoughtbot
+    git clone https://github.com/thoughtbot/dotfiles.git
+    rcup -d dotfiles -x README.md -x LICENSE -x Brewfile
 
-Install:
+Install these dotfiles onto your laptop:
+
+    mkdir kevin-j-m
+    cd kevin-j-m
+    git clone https://github.com/kevin-j-m/dotfiles.git
+    rcup -d dotfiles -x README.md
+
+Setting RCRC env var:
 
     env RCRC=$HOME/kevin-j-m/dotfiles/rcrc rcup
 
