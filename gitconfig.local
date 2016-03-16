@@ -5,6 +5,7 @@
   ci-status = !hub ci-status
   compare = !hub compare
   lo = log --oneline --decorate --all -20
+  pf = push --force-with-lease
   ri = rebase -i
 [user]
   name = Kevin Murphy
