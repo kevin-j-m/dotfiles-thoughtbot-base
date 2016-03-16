@@ -50,10 +50,25 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:rspec_runner = "os_x_iterm"
 
 " RSpec.vim mappings
-map <Leader>t :call RunCurrentSpecFile()<CR>
-map <Leader>r :call RunNearestSpec()<CR>
-map <Leader>l :call RunLastSpec()<CR>
-map <Leader>a :call RunAllSpecs()<CR>
+" map <Leader>t :call RunCurrentSpecFile()<CR>
+" map <Leader>r :call RunNearestSpec()<CR>
+" map <Leader>l :call RunLastSpec()<CR>
+" map <Leader>a :call RunAllSpecs()<CR>
+
+" vim-test mappings
+nmap <silent> <leader>r :TestNearest<CR>
+nmap <silent> <leader>t :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>gt :TestVisit<CR>
+
+" vim-rubytest mappings
+" map <Leader>r <Plug>RubyTestRun
+" map <Leader>t <Plug>RubyFileRun
+" map <Leader>l <Plug>RubyTestRunLast
+
+" vim-run-interactive mappings
+nnoremap <leader>ri :RunInInteractiveShell<space>
 
 " Key mappings
 :inoremap ii <Esc>
