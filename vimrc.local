@@ -49,6 +49,13 @@ let g:ctrlp_cmd = 'CtrlP'
 " Use iTerm instea of Terminal for vim-rspec
 let g:rspec_runner = "os_x_iterm"
 
+" vim-test
+" ========
+"
+" Use iTerm to execute test commands
+let test#strategy = "basic"
+let g:test#preserve_screen = 1
+
 " RSpec.vim mappings
 " map <Leader>t :call RunCurrentSpecFile()<CR>
 " map <Leader>r :call RunNearestSpec()<CR>
