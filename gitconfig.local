@@ -1,9 +1,12 @@
 [alias]
   b = branch
+  branch-name = rev-parse --abbrev-ref HEAD
   browse = !hub browse
   can = commit --amend --no-edit
   ci-status = !hub ci-status
   compare = !hub compare
+  get = "!git pull --rebase origin $(git branch-name)"
+  give = "!git push origin $(git branch-name)"
   lo = log --decorate --all -20 --pretty=format:'%C(auto)%h <%an>%d %s (%cr)%Creset' --abbrev-commit --date=short --branches
   pf = push --force-with-lease
   ri = rebase -i
