@@ -4,7 +4,7 @@
   can = commit --amend --no-edit
   ci-status = !hub ci-status
   compare = !hub compare
-  lo = log --oneline --decorate --all -20
+  lo = log --decorate --all -20 --pretty=format:'%C(auto)%h <%an>%d %s (%cr)%Creset' --abbrev-commit --date=short --branches
   pf = push --force-with-lease
   ri = rebase -i
 [user]
