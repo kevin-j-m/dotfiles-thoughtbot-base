@@ -53,7 +53,11 @@ let g:rspec_runner = "os_x_iterm"
 " ========
 "
 " Use iTerm to execute test commands
-let test#strategy = "iterm"
+if has("gui_running")
+  let test#strategy = "iterm"
+else
+  let test#strategy = "vimux"
+end
 let g:test#preserve_screen = 1
 
 " RSpec.vim mappings
