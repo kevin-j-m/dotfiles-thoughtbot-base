@@ -13,3 +13,5 @@
 [user]
   name = Kevin Murphy
   email = "(none)"
+[credential]
+  helper = osxkeychain
