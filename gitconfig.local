@@ -12,6 +12,6 @@
   ri = rebase -i
 [user]
   name = Kevin Murphy
-  email = "(none)"
+  useConfigOnly = true
 [credential]
   helper = osxkeychain
