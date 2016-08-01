@@ -36,6 +36,9 @@ Install these dotfiles onto your laptop:
     cd kevin-j-m
     git clone https://github.com/kevin-j-m/dotfiles.git
     rcup -d dotfiles -x README.md
+    cd dotfiles
+    chmod +x install.sh
+    ./install.sh
 
 Setting RCRC env var:
 
