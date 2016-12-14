@@ -25,6 +25,7 @@ Plug 'vim-scripts/matchit.zip'
 Plug 'benmills/vimux'
 Plug 'tpope/vim-ragtag'
 Plug 'djoshea/vim-autoread'
+Plug 'editorconfig/editorconfig-vim'
 
 Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
