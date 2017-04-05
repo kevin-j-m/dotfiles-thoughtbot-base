@@ -23,7 +23,7 @@ export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:$PATH"
 PATH=$PATH:"$HOME/Library/Android/sdk/platform-tools"
 unsetopt nomatch
 
-chruby ruby-2.3.1
+chruby ruby-2.4.1
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 
