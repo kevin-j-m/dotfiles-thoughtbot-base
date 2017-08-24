@@ -1,3 +1,4 @@
+alias be="bundle exec"
 alias remigrate="bundle exec rake db:migrate && bundle exec rake db:migrate:redo && bundle exec rake db:schema:dump db:test:prepare"
 alias testprep="rake db:drop db:create db:schema:load RAILS_ENV=test"
 alias zulip="~/scripts/zulip.sh"
