@@ -27,5 +27,5 @@ Plug 'tpope/vim-ragtag'
 Plug 'djoshea/vim-autoread'
 Plug 'editorconfig/editorconfig-vim'
 
-Plug 'elixir-lang/vim-elixir'
+Plug 'elixir-editors/vim-elixir'
 Plug 'slashmili/alchemist.vim'
