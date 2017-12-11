@@ -1,4 +1,5 @@
 alias be="bundle exec"
+alias devbummr="BASE_BRANCH=develop bummr update"
 alias exmigrate="mix ecto.migrate && mix ecto.rollback && mix ecto.migrate"
 alias prontor="bundle exec pronto run"
 alias remigrate="bundle exec rake db:migrate && bundle exec rake db:migrate:redo && bundle exec rake db:schema:dump db:test:prepare"
