@@ -29,3 +29,4 @@ Plug 'editorconfig/editorconfig-vim'
 
 Plug 'elixir-editors/vim-elixir'
 Plug 'slashmili/alchemist.vim'
+Plug 'mhinz/vim-mix-format'
