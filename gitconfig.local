@@ -10,6 +10,8 @@
   lo = log --decorate --all -20 --pretty=format:'%C(auto)%h <%an>%d %s (%cr)%Creset' --abbrev-commit --date=short --branches
   pf = push --force-with-lease
   ri = rebase -i
+[pager]
+  branch = cat
 [user]
   name = Kevin Murphy
   useConfigOnly = true
