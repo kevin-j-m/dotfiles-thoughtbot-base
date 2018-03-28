@@ -23,9 +23,14 @@ export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:$PATH"
 PATH=$PATH:"$HOME/Library/Android/sdk/platform-tools"
 unsetopt nomatch
 
-chruby ruby-2.5.0
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
+# rbenv configuration
+export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
+eval "$(rbenv init -)"
+
+# chruby configuration
+# chruby ruby-2.5.0
+# source /usr/local/share/chruby/chruby.sh
+# source /usr/local/share/chruby/auto.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
