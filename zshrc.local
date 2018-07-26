@@ -36,6 +36,11 @@ source /usr/local/share/chruby/auto.sh
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
+# Oracle configuration
+export PATH="/opt/instaclient:$PATH"
+export DYLD_LIBRARY_PATH="/opt/instaclient/:$DYLD_LIBRARY_PATH"
+export PKG_CONFIG_PATH=/opt/instaclient/pkgconfig
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
