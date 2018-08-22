@@ -1,5 +1,5 @@
 alias be="bundle exec"
-alias devbummr="BASE_BRANCH=develop bummr update"
+alias devbummr="BASE_BRANCH=develop bummr update --all"
 alias exmigrate="mix ecto.migrate && mix ecto.rollback && mix ecto.migrate"
 alias prontor="bundle exec pronto run"
 alias devprontor="bundle exec pronto run -c origin/develop"
