@@ -28,7 +28,7 @@ unsetopt nomatch
 # eval "$(rbenv init -)"
 
 # chruby configuration
-chruby ruby-2.6.0
+chruby ruby-2.6.6
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 
